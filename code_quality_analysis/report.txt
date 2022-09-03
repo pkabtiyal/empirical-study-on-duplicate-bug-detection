@@ -1,0 +1,25 @@
+************* Module src.compute_combined_search
+src/compute_combined_search.py:5:0: E0401: Unable to import 'src.combined.bm_lda_calculator' (import-error)
+************* Module src.performance_evaluator.calculator
+src/performance_evaluator/calculator.py:25:0: R0914: Too many local variables (19/15) (too-many-locals)
+************* Module src.topic_model.modelling
+src/topic_model/modelling.py:42:0: C0301: Line too long (101/100) (line-too-long)
+src/topic_model/modelling.py:15:0: R0914: Too many local variables (22/15) (too-many-locals)
+src/topic_model/modelling.py:47:27: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+src/topic_model/modelling.py:49:28: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+src/topic_model/modelling.py:52:4: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+src/topic_model/modelling.py:54:45: E1136: Value 'norm_df' is unsubscriptable (unsubscriptable-object)
+src/topic_model/modelling.py:77:28: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+************* Module src.topic_model.lda_search_engine
+src/topic_model/lda_search_engine.py:78:0: R0914: Too many local variables (17/15) (too-many-locals)
+************* Module src.bm25.search_engine
+src/bm25/search_engine.py:32:0: R0914: Too many local variables (17/15) (too-many-locals)
+************* Module src.data_preprocessing.driver
+src/data_preprocessing/driver.py:23:19: E1136: Value 'content' is unsubscriptable (unsubscriptable-object)
+src/data_preprocessing/driver.py:23:60: E1136: Value 'content' is unsubscriptable (unsubscriptable-object)
+************* Module src.combined.bm_lda_calculator
+src/combined/bm_lda_calculator.py:9:0: R0914: Too many local variables (23/15) (too-many-locals)
+
+------------------------------------------------------------------
+Your code has been rated at 9.16/10 (previous run: 9.16/10, +0.00)
+
